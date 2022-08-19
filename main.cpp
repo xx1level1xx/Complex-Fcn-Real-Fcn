@@ -22,7 +22,7 @@ int main(){
 }
 double ln(double num){
 	double x=2.71;
-	double y=exponent(2.71);
+	double y=exponent(2.71) - num;
 	while(abs(y)>0.00001){ //what//right right so annoying
 		x = x + -y/exponent(x);
 		y = exponent(x) - num;
